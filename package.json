@@ -1,0 +1,47 @@
+{
+  "name": "hardhat-project",
+  "version": "0.0.1",
+  "description": "Contracts for account.js",
+  "license": "GPL-3.0",
+  "scripts": {
+    "build": "hardhat compile"
+  },
+  "keywords": [
+    "Ethereum",
+    "Wallet",
+    "Safe",
+    "Account Abstraction"
+  ],
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@typescript-eslint/eslint-plugin": "^5.49.0",
+    "@typescript-eslint/parser": "^5.49.0",
+    "eslint": "^8.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-no-only-tests": "^3.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "hardhat": "^2.13.0",
+    "solhint": "3.3.8",
+    "solhint-plugin-prettier": "0.0.5",
+    "solidity-coverage": "^0.7.17",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@account-abstraction/contracts": "0.5.0",
+    "@ethersproject/providers": "^5.7.2",
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.6",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.8",
+    "@nomiclabs/hardhat-ethers": "^2.2.2",
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "@openzeppelin/contracts": "^4.8.2",
+    "@typechain/ethers-v5": "^10.2.0",
+    "@typechain/hardhat": "^6.1.5",
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.3.7",
+    "hardhat-gas-reporter": "^1.0.9",
+    "ts-node": "^10.9.1",
+    "typechain": "^8.1.1"
+  },
+  "packageManager": "yarn@1.22.19"
+}
